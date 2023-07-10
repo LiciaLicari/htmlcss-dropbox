@@ -1,3 +1,5 @@
+/* Common Region */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +9,57 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+:root {
+    --drbx-black: #010001;
+    --drbx-white: #ffffff;
+    --drbx-bkgr-and-square6: #b5d0e6;
+    --drbx-accent: #0160ff;
+    --drbx-square1: #a3d39a;
+    --drbx-square2-aternativeFont: #60092b; 
+    --drbx-square3: #0192ce;
+    --drbx-square4: #fe1c1d;
+    --drbx-big-square: #f5f4f4;
+    --drbx-square5: #d4011f; 
+    --drbx-square7: #0d2580;
+    --drbx-square8: #fed831;
+}
+
+/* /Common Region */
+
+/* Utilities Region */
+d-flex {
+    display: flex;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+  
+.list-inline {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+/* /Utilities Region */
+
+/* Debug Region */
+
+.debug header {
+   height: 70px; 
+}
+
+/* /Debug Region */
+
+/* Header Region */
+
+#site_header nav {
+    padding: 1rem 1rem;
+  }
