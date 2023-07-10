@@ -135,8 +135,34 @@ h1 .row {
     font-weight: 800;
 }
 
+[class^="col-"] {
+    padding-top: 3rem;
+}
+
+.col-4 {
+    width: calc(100%/12*4);
+    padding-right: 1.5rem;
+}
+.col-6 {
+    width: calc(100%/12*6);
+    padding-right: 1.5rem;
+}
+
+.col-6 .img {
+    max-width: 100%;
+}
+
 /* Spacing Region */
 
 .pt-3 {
     padding-top: 3rem;
 }
+
+.pl-8 {
+    padding-left: 8rem;
+}
+
+.pr-8 {
+    padding-right: 8rem;
+}
+
