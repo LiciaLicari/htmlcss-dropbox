@@ -55,8 +55,9 @@ body {
 
 /* /Utilities Region */
 
-/* Debug Region */
 
+/* Debug Region */
+/*
 .debug site_header {
    height: 70px; 
 }
@@ -86,3 +87,11 @@ body {
 .right_menu {
     text-align: end;
   }
+
+ul {
+    gap: 1.5rem;
+}
+
+.logo {
+    text-align: center;
+}
