@@ -48,18 +48,40 @@ d-flex {
     justify-content: end;
 }
 
+.align-items-center {
+    align-items: center;
+  }
+
 /* /Utilities Region */
 
 /* Debug Region */
 
-.debug header {
+.debug site_header {
    height: 70px; 
 }
 
+.debug .h_container {
+    background-color: lightskyblue;
+    min-height: 70px;
+}
 /* /Debug Region */
 
 /* Header Region */
 
 #site_header nav {
     padding: 1rem 1rem;
+  }
+
+.h_container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+  }
+
+.left_menu, .right_menu {
+    width: 50%;
+  }
+
+.right_menu {
+    text-align: end;
   }
