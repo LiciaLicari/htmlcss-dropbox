@@ -135,3 +135,8 @@ h1 .row {
     font-weight: 800;
 }
 
+/* Spacing Region */
+
+.pt-3 {
+    padding-top: 3rem;
+}
