@@ -70,11 +70,20 @@ body {
 
 /* Header Region */
 
+/*
+
+.debug .main_container {
+    height: 500px;
+    width: 100%;
+    background-color: darkgray;
+}
+*/
+
 #site_header nav {
     padding: 1rem 1rem;
   }
 
-.h_container {
+.h_container .jumbotron {
     width: 80%;
     max-width: 1170px;
     margin: auto;
@@ -95,3 +104,34 @@ ul {
 .logo {
     text-align: center;
 }
+
+/* /Header Region */
+
+/* Jumbotron Region */
+
+.jumbotron{
+  background-color: var(--drbx-bkgr-and-square6);  
+  height: 500px;
+  padding: 2rem 0;
+  text-align: center;
+
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+  color: var(--ds-white);
+}
+
+
+.main_container .dflex {
+    max-width: 1170px;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+h1 .row {
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
