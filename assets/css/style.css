@@ -33,6 +33,14 @@ body {
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
 .list-unstyled {
     list-style: none;
 }
@@ -86,6 +94,10 @@ body {
     height: 400px;
     background-color: black;
 }
+
+.debug #plans .row {
+height: 600px;
+}
 */
 /* /Debug Region */
 
@@ -129,7 +141,7 @@ a{
 .btn_blue a{
     background-color: var(--drbx-accent);
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     display: inline-block;
 }
@@ -153,11 +165,11 @@ a{
   color: var(--ds-white);
 }
 
-.main_container .dflex {
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 -3rem;
+.main_container {
+    width: 80%;
+    margin: 0 auto;
 }
+
 
 #site_main .jumbotron .btn-jumbo {
     display: inline-block;
@@ -182,14 +194,20 @@ p{
 
 .col-4 {
     width: calc(100%/12*4);
-    padding-right: 1.5rem;
 }
 .col-8 {
     width: calc(100%/12*8);
-    padding-right: 1.5rem;
 }
 
 
+#site_main #plans .card {
+    border: 1px solid lightgray);
+    height: 100%
+}
+
+#site_main #plans .top {
+    padding: 1rem 0;
+}
 
 /* Spacing Region */
 
@@ -197,19 +215,37 @@ p{
     padding-top: 2rem;
 }
 
+.pt-8 {
+    padding-top: 4rem;
+}
+
+.pt-20 {
+    padding-top: 10px;
+}
+
 .pb-6 {
     padding-bottom: 3rem;
 }
 
-
-
+.pl-0 {
+    padding-left: 0;
+}
 .pl-16 {
     padding-left: 8rem;
+}
+
+.pr-3 {
+    padding-right: 1.5rem;
 }
 
 .pr-8 {
     padding-right: 8rem;
 }
+
+.ml-4 {
+    margin-left: 2rem;
+}
+
 
 footer {
     background-color: var(--drbx-black);
