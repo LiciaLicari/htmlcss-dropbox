@@ -127,7 +127,13 @@ header {
     justify-content: end;
   }
 
-a{
+.left_menu a{
+    padding: 0 1rem;
+    color: var(--drbx-black);
+    text-decoration: none;
+}
+
+.right_menu a{
     padding: 0 1rem;
     color: var(--drbx-black);
     text-decoration: none;
@@ -144,6 +150,7 @@ a{
     padding: 0.5rem 1rem;
     text-align: center;
     display: inline-block;
+    text-decoration: none;
 }
 
 .right_menu .btn_blue a{
@@ -177,8 +184,6 @@ a{
 
 h1 {
     font-weight: 900;
-    padding: 1rem 10rem;
-
 }
 
 p{
@@ -208,6 +213,15 @@ p{
     padding: 1rem 0;
 }
 
+.call_to_action i {
+    text-align: left; 
+    color: var(--drbx-black);
+}
+
+footer {
+    background-color: var(--drbx-black);
+}
+
 /* Spacing Region */
 
 .pt-4 {
@@ -219,7 +233,7 @@ p{
 }
 
 .pt-20 {
-    padding-top: 10px;
+    padding-top: 10rem;
 }
 
 .pb-6 {
@@ -249,7 +263,5 @@ p{
     margin-top: 4rem;
 }
 
+/* / Spacing Region*/
 
-footer {
-    background-color: var(--drbx-black);
-}
