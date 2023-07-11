@@ -49,13 +49,22 @@ body {
     justify-content: space-between;
 }
 
+.img-fluid {
+    max-width: 70%;
+}
 
 /* /Utilities Region */
 
 
 /* Debug Region */
 
+
 /*
+
+.debug .card {
+    height: 100%;
+    background-color: lightblue;
+}
 
 .debug header {
     background-color: lightskyblue;
@@ -116,12 +125,13 @@ a{
     text-align: center;
 }
 
+
 .btn_blue a{
     background-color: var(--drbx-accent);
     color: white;
     padding: 0.5rem;
     text-align: center;
-    
+    display: inline-block;
 }
 
 .right_menu .btn_blue a{
@@ -135,10 +145,7 @@ a{
 
 .jumbotron{
   background-color: var(--drbx-bkgr-and-square6);  
-  height: 500px;
-  padding: 2rem 0;
-  text-align: center;
-
+  height: 700px;
 }
 
 .jumbotron h1 {
@@ -146,11 +153,14 @@ a{
   color: var(--ds-white);
 }
 
-
 .main_container .dflex {
     max-width: 1170px;
     margin: auto;
-    padding: 4rem 0;
+    padding: 0 -3rem;
+}
+
+#site_main .jumbotron .btn-jumbo {
+    display: inline-block;
 }
 
 h1 {
@@ -161,8 +171,9 @@ h1 {
 
 }
 
-p {
+p{
     line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 [class^="col-"] {
@@ -178,18 +189,21 @@ p {
     padding-right: 1.5rem;
 }
 
-.col-8 .img {
-    max-width: 100%;
-    margin-bottom: -4rem;
-}
+
 
 /* Spacing Region */
 
-.pt-3 {
-    padding-top: 3rem;
+.pt-4 {
+    padding-top: 2rem;
 }
 
-.pl-8 {
+.pb-6 {
+    padding-bottom: 3rem;
+}
+
+
+
+.pl-16 {
     padding-left: 8rem;
 }
 
