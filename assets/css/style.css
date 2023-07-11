@@ -57,27 +57,35 @@ body {
 
 
 /* Debug Region */
-/*
-.debug site_header {
-   height: 70px; 
-}
 
-.debug .h_container {
+/*
+
+.debug header {
     background-color: lightskyblue;
-    min-height: 70px;
+    height: 60px;
 }
-/* /Debug Region */
 
-/* Header Region */
-
-/*
+.debug main {
+    height: 1200px;
+    background-color: aquamarine;
+}
 
 .debug .main_container {
     height: 500px;
     width: 100%;
     background-color: darkgray;
 }
+
+.debug footer {
+    height: 400px;
+    background-color: black;
+}
 */
+/* /Debug Region */
+
+/* Header Region */
+
+
 
 #site_header nav {
     padding: 1rem 1rem;
@@ -135,6 +143,10 @@ h1 .row {
     font-weight: 800;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 [class^="col-"] {
     padding-top: 3rem;
 }
@@ -143,13 +155,14 @@ h1 .row {
     width: calc(100%/12*4);
     padding-right: 1.5rem;
 }
-.col-6 {
-    width: calc(100%/12*6);
+.col-8 {
+    width: calc(100%/12*8);
     padding-right: 1.5rem;
 }
 
-.col-6 .img {
+.col-8 .img {
     max-width: 100%;
+    margin-bottom: -4rem;
 }
 
 /* Spacing Region */
@@ -166,3 +179,6 @@ h1 .row {
     padding-right: 8rem;
 }
 
+footer {
+    background-color: var(--drbx-black);
+}
