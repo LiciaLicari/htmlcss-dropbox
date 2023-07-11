@@ -82,6 +82,9 @@ body {
 
 /* Header Region */
 
+header {
+    width: 1770px;
+}
 
 #site_header .h_container {
     padding: 1rem 1rem;
@@ -100,7 +103,7 @@ body {
   
 
 .right_menu {
-    text-align: end;
+    justify-content: end;
   }
 
 a{
@@ -150,10 +153,12 @@ a{
     padding: 4rem 0;
 }
 
-h1 .row {
+h1 {
     align-items: center;
     font-size: 4.5rem;
     font-weight: 800;
+    padding: 1rem 20rem;
+
 }
 
 p {
