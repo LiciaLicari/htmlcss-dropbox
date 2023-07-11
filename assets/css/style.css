@@ -58,7 +58,7 @@ body {
 }
 
 .img-fluid {
-    max-width: 70%;
+    max-width: 100%;
 }
 
 /* /Utilities Region */
@@ -157,7 +157,7 @@ a{
 
 .jumbotron{
   background-color: var(--drbx-bkgr-and-square6);  
-  height: 700px;
+  height: 740px;
 }
 
 .jumbotron h1 {
@@ -166,7 +166,7 @@ a{
 }
 
 .main_container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -176,10 +176,8 @@ a{
 }
 
 h1 {
-    align-items: center;
-    font-size: 4.5rem;
-    font-weight: 800;
-    padding: 1rem 20rem;
+    font-weight: 900;
+    padding: 1rem 10rem;
 
 }
 
@@ -188,9 +186,10 @@ p{
     margin-bottom: 1.5rem;
 }
 
-[class^="col-"] {
-    padding-top: 3rem;
+.light {
+    font-weight: lighter;
 }
+
 
 .col-4 {
     width: calc(100%/12*4);
@@ -244,6 +243,10 @@ p{
 
 .ml-4 {
     margin-left: 2rem;
+}
+
+.mt-8 {
+    margin-top: 4rem;
 }
 
 
