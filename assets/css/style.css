@@ -45,13 +45,10 @@ body {
     align-items: center;
 }
 
-.justify-content-end {
-    justify-content: end;
+.justify-content-between {
+    justify-content: space-between;
 }
 
-.align-items-center {
-    align-items: center;
-  }
 
 /* /Utilities Region */
 
@@ -86,9 +83,9 @@ body {
 /* Header Region */
 
 
-
-#site_header nav {
+#site_header .h_container {
     padding: 1rem 1rem;
+    box-shadow: O O 5px black;
   }
 
 .h_container .jumbotron {
@@ -100,18 +97,34 @@ body {
 .left_menu, .right_menu {
     width: 50%;
   }
+  
 
 .right_menu {
     text-align: end;
   }
 
-ul {
-    gap: 2rem;
+a{
+    padding: 0 1rem;
+    color: var(--drbx-black);
+    text-decoration: none;
 }
 
 .logo {
     text-align: center;
 }
+
+.btn_blue a{
+    background-color: var(--drbx-accent);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+
+.right_menu .btn_blue a{
+    margin-top: -0.47rem;
+}
+
 
 /* /Header Region */
 
