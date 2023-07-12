@@ -164,7 +164,7 @@ header {
 
 .jumbotron{
   background-color: var(--drbx-bkgr-and-square6);  
-  height: 740px;
+  height: 610px;
 }
 
 .jumbotron h1 {
@@ -203,6 +203,15 @@ p{
     width: calc(100%/12*8);
 }
 
+.call_to_action i {
+    text-align: left; 
+    color: var(--drbx-black);
+}
+
+/* /Jumbotron Region*/
+
+
+/* Plans Region*/
 
 #site_main #plans .card {
     border: 1px solid lightgray);
@@ -213,10 +222,21 @@ p{
     padding: 1rem 0;
 }
 
-.call_to_action i {
-    text-align: left; 
-    color: var(--drbx-black);
+#plans .container {
+    width: 50%;
+    margin: auto;
 }
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+#plans .container .row {
+    margin-top: 3rem;
+}
+
+/* Footer Region */
 
 footer {
     background-color: var(--drbx-black);
