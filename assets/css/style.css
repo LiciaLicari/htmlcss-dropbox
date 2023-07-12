@@ -15,6 +15,7 @@ body {
     --drbx-white: #ffffff;
     --drbx-bkgr-and-square6: #b5d0e6;
     --drbx-accent: #0160ff;
+    --drbx-link: blue;
     --drbx-square1: #a3d39a;
     --drbx-square2-alternativeFont: #60092b; 
     --drbx-square3: #0192ce;
@@ -23,6 +24,8 @@ body {
     --drbx-square5: #d4011f; 
     --drbx-square7: #0d2580;
     --drbx-square8: #fed831;
+    
+
 }
 
 /* /Common Region */
@@ -74,6 +77,13 @@ body {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
+}
+
+#site_main #plans .center div, 
+#site_main #plans .bottom div, 
+#site_main #plans .center h3, 
+#site_main #plans .bottom h4 {
+    padding-bottom: 1.5rem;
 }
 
 .bottom {
@@ -179,7 +189,9 @@ header {
     margin-top: -0.47rem;
 }
 
-
+.buy {
+    color: var(--drbx-link)
+}
 /* /Header Region */
 
 /* Jumbotron Region */
@@ -254,6 +266,20 @@ h2 {
     font-weight: 600;
 }
 
+
+#site_main [class^="col-"] {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/* 
+
+*/
+
+h3 {
+    font-size: 1.8rem;
+}
+
 #plans .container .row {
     margin-top: 3rem;
 }
@@ -261,7 +287,7 @@ h2 {
 .btn_try a {
     background-color: var(--drbx-accent);
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -270,6 +296,7 @@ h2 {
 
 #site_main #plans .center .line-bottom {
     border-bottom: 1px solid lightgray;
+    padding: 1rem 0;
 }
 
 /* Footer Region */
