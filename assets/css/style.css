@@ -30,7 +30,7 @@ body {
 
 /* /Common Region */
 
-/* Utilities Region */
+/* #region Utilities */
 
 .d-flex {
     display: flex;
@@ -93,7 +93,7 @@ body {
 }
 
 
-/* /Utilities Region */
+/* #endregion Utilities */
 
 
 /* Debug Region */
@@ -207,12 +207,12 @@ header {
 }
 
 .main_container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 #plans .container {
     max-width: 1170px;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -268,24 +268,34 @@ h2 {
 }
 
 
-#site_main [class^="col-"] {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
 /* 
 
 */
 
-h3 {
-    font-size: 1.8rem;
-}
+
 
 #plans .container .row {
     margin-top: 3rem;
     
 }
 
+h3 {
+    font-size: 1.8rem;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+
+#site_main #plans .center i,
+#site_main #plans .bottom i {
+    padding-right: .5rem;
+}
+
+.bottom i {
+    color: var(--drbx-accent);
+}
 .btn_try a {
     background-color: var(--drbx-accent);
     color: white;
@@ -317,8 +327,8 @@ footer {
     padding-top: 4rem;
 }
 
-.pt-20 {
-    padding-top: 10rem;
+.pt-30 {
+    padding-top: 15rem;
 }
 
 .pb-4 {
@@ -340,9 +350,25 @@ footer {
     padding-left: 8rem;
 }
 
+.pr-1 {
+    padding-right: 0.5rem;
+}
+
+.pr-2 {
+    padding-right: 1rem;
+}
+
+.pl-1{
+    padding-left: 0.5rem;
+}
+.pl-2 {
+    padding-left: 1rem;
+}
+
 .pr-3 {
     padding-right: 1.5rem;
 }
+
 
 .pr-8 {
     padding-right: 8rem;
