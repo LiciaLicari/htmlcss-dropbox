@@ -61,6 +61,28 @@ body {
     max-width: 100%;
 }
 
+.text-center {
+    text-align: center;
+}
+.top {
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem 0;
+}
+
+.center {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.bottom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+
 /* /Utilities Region */
 
 
@@ -214,7 +236,7 @@ p{
 /* Plans Region*/
 
 #site_main #plans .card {
-    border: 1px solid lightgray);
+    border: 1px solid lightgray;
     height: 100%
 }
 
@@ -234,6 +256,20 @@ h2 {
 
 #plans .container .row {
     margin-top: 3rem;
+}
+
+.btn_try a {
+    background-color: var(--drbx-accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+#site_main #plans .center .line-bottom {
+    border-bottom: 1px solid lightgray;
 }
 
 /* Footer Region */
@@ -256,8 +292,16 @@ footer {
     padding-top: 10rem;
 }
 
+.pb-4 {
+    padding-bottom: 2rem;
+}
+
 .pb-6 {
     padding-bottom: 3rem;
+}
+
+.pb-8 {
+    padding-bottom: 16rem;
 }
 
 .pl-0 {
@@ -285,3 +329,6 @@ footer {
 
 /* / Spacing Region*/
 
+.border {
+    border: 1px solid lightgray;
+}
