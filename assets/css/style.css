@@ -216,7 +216,7 @@ header {
     padding: 0.5rem 1rem;
 }
 
-.buy {
+.buy, .find_out {
     color: var(--drbx-link)
 }
 /* /Header Region */
@@ -225,7 +225,7 @@ header {
 
 .jumbotron{
   background-color: var(--drbx-bkgr-and-square6);  
-  height: 610px;
+  height: 660px;
 }
 
 .jumbotron h1 {
@@ -237,7 +237,7 @@ header {
     width: 80%;
     margin: 0 auto;
 }
-#plans .container, #partner .container {
+#plans .container, #partner .container, #business .container, #more .container {
     max-width: 1170px;
     width: 70%;
     margin: auto;
@@ -302,6 +302,13 @@ h2 {
     font-weight: 600;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 /* 
 
@@ -337,6 +344,11 @@ h3 {
     border-bottom: 1px solid lightgray;
     padding: 1rem 0;
 }
+
+#site_main .business .card p{
+    padding-top: 1rem;
+}
+
 
 /* Footer Region */
 
@@ -427,6 +439,9 @@ footer {
     margin-top: 4rem;
 }
 
+.py-8 {
+    padding: 4rem 0;
+}
 /* / Spacing Region*/
 
 .border {
