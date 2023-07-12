@@ -67,6 +67,15 @@ body {
 .text-center {
     text-align: center;
 }
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
 .top {
     border-bottom: 1px solid lightgrey;
     padding: 1rem 0;
@@ -189,6 +198,17 @@ header {
     margin-top: -0.47rem;
 }
 
+.btn_try a, .btn_contact {
+    background-color: var(--drbx-accent);
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+
 .buy {
     color: var(--drbx-link)
 }
@@ -238,8 +258,13 @@ p{
 .col-4 {
     width: calc(100%/12*4);
 }
+
 .col-8 {
     width: calc(100%/12*8);
+}
+
+.col-12 {
+    width: 100%;
 }
 
 .call_to_action i {
@@ -296,15 +321,7 @@ h3 {
 .bottom i {
     color: var(--drbx-accent);
 }
-.btn_try a {
-    background-color: var(--drbx-accent);
-    color: white;
-    padding: 1rem 1.5rem;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    
-}
+
 
 #site_main #plans .center .line-bottom {
     border-bottom: 1px solid lightgray;
