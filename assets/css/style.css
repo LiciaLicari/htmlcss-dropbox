@@ -282,6 +282,30 @@ p{
     color: var(--drbx-black);
 }
 
+#members .square {
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+
+}
+
+#members .square-sm {
+    width: calc(100% / 2);
+}
+
+.left {
+    background-color: lightgreen;
+}
+
+.center {
+    background-color: var(--drbx-big-square);
+}
+
+.right {
+    background-color: lightsalmon;
+}
+
+
+
 /* /Jumbotron Region*/
 
 
