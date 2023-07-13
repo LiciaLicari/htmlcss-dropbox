@@ -153,7 +153,7 @@ body {
 
 
 /* #region Debug */
-
+/*
 .debug .card {
     height: 100%;
     background-color: lightblue;
@@ -175,6 +175,18 @@ body {
     background-color: darkgray;
 }
 
+.debug .left {
+    background-color: lightgreen;
+}
+
+.debug .center {
+    background-color: var(--drbx-big-square);
+}
+
+.debug .right {
+    background-color: lightsalmon;
+}
+
 .debug footer {
     height: 400px;
     background-color: black;
@@ -193,7 +205,7 @@ body {
     background-color: lightsalmon;
     border: 1px solid black;
 }
-
+*/
 /* #endregion Debug */
 
 /* Header Region */
@@ -377,17 +389,7 @@ p {
     flex-wrap: wrap;
 }
 
-.left {
-    background-color: lightgreen;
-}
 
-.center {
-    background-color: var(--drbx-big-square);
-}
-
-.right {
-    background-color: lightsalmon;
-}
 
 
 
