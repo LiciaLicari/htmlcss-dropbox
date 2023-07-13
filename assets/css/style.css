@@ -1,6 +1,6 @@
 /* Common Region */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,20 +13,20 @@ body {
 :root {
     --drbx-black: #010001;
     --drbx-white: #ffffff;
-    --drbx-bkgr-and-square6: #b5d0e6;
+    --drbx-soft-accent: #b5d0e6;
     --drbx-accent: #0160ff;
     --drbx-link: blue;
-    --drbx-square1: #a3d39a;
-    --drbx-square2-alternativeFont: #60092b; 
-    --drbx-square3: #0192ce;
-    --drbx-square4: #fe1c1d;
-    --drbx-big-square: #f5f4f4;
-    --drbx-square5: #d4011f; 
-    --drbx-square7: #0d2580;
-    --drbx-square8: #fed831;
-    
+    --drbx-designit: #a3d39a;
+    --drbx-asu: #60092b;
+    --drbx-florida: #0192ce;
+    --drbx-topps: #fe1c1d;
+    --drbx-light: #f5f4f4;
+    --drbx-worldbicyclerelief: #d4011f;
+    --drbx-lonelyplanet: #0d2580;
+    --drbx-clearchannel: #fed831;
 
 }
+
 
 /* /Common Region */
 
@@ -47,7 +47,7 @@ body {
 .list-unstyled {
     list-style: none;
 }
-  
+
 .list-inline {
     display: flex;
 }
@@ -58,6 +58,10 @@ body {
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .img-fluid {
@@ -88,9 +92,9 @@ body {
     padding-bottom: 3rem;
 }
 
-#site_main #plans .center div, 
-#site_main #plans .bottom div, 
-#site_main #plans .center h3, 
+#site_main #plans .center div,
+#site_main #plans .bottom div,
+#site_main #plans .center h3,
 #site_main #plans .bottom h4 {
     padding-bottom: 1.5rem;
 }
@@ -101,14 +105,54 @@ body {
     padding-top: 2rem;
 }
 
+.bg-designit {
+    background-color: var(--drbx-designit); 
+}
+
+.bg-asu {
+    background-color: var(--drbx-asu);
+}
+
+.bg-florida {
+    background-color: var(--drbx-florida);
+}
+
+.bg-bicycle {
+    background-color: var(--drbx-worldbicyclerelief);
+}
+
+.bg-hearst {
+    background-color: var(--drbx-soft-accent);
+}
+
+.bg-topps {
+    background-color: var(--drbx-topps);
+}
+
+.bg-topps {
+    background-color: var(--drbx-topps);
+}
+
+.bg-topps {
+    background-color: var(--drbx-topps);
+}
+
+.bg-lonely {
+    background-color: var(--drbx-lonelyplanet);
+}
+
+.bg-clear {
+    background-color: var(--drbx-clearchannel);
+}
+
+.bg-claim {
+    background-color: var(--drbx-light);
+}
 
 /* #endregion Utilities */
 
 
-/* Debug Region */
-
-
-/*
+/* #region Debug */
 
 .debug .card {
     height: 100%;
@@ -137,10 +181,20 @@ body {
 }
 
 .debug #plans .row {
-height: 600px;
+    height: 600px;
 }
-*/
-/* /Debug Region */
+
+.debug .square {
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.debug .square-sm {
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
+
+/* #endregion Debug */
 
 /* Header Region */
 
@@ -151,30 +205,31 @@ header {
 #site_header .h_container {
     padding: 1rem 1rem;
     box-shadow: O O 5px black;
-  }
+}
 
 .h_container .jumbotron {
     width: 80%;
     max-width: 1170px;
     margin: auto;
-  }
+}
 
-.left_menu, .right_menu {
+.left_menu,
+.right_menu {
     width: 50%;
-  }
-  
+}
+
 
 .right_menu {
     justify-content: end;
-  }
+}
 
-.left_menu a{
+.left_menu a {
     padding: 0 1rem;
     color: var(--drbx-black);
     text-decoration: none;
 }
 
-.right_menu a{
+.right_menu a {
     padding: 0 1rem;
     color: var(--drbx-black);
     text-decoration: none;
@@ -185,7 +240,7 @@ header {
 }
 
 
-.btn_blue a{
+.btn_blue a {
     background-color: var(--drbx-accent);
     color: white;
     padding: 0.5rem 1rem;
@@ -194,18 +249,19 @@ header {
     text-decoration: none;
 }
 
-.right_menu .btn_blue a{
+.right_menu .btn_blue a {
     margin-top: -0.47rem;
 }
 
-.btn_try a, .btn_contact {
+.btn_try a,
+.btn_contact {
     background-color: var(--drbx-accent);
     color: white;
     padding: 1rem 1.5rem;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    
+
 }
 
 .btn-partner {
@@ -216,28 +272,34 @@ header {
     padding: 0.5rem 1rem;
 }
 
-.buy, .find_out {
+.buy,
+.find_out {
     color: var(--drbx-link)
 }
+
 /* /Header Region */
 
 /* Jumbotron Region */
 
-.jumbotron{
-  background-color: var(--drbx-bkgr-and-square6);  
-  height: 660px;
+.jumbotron {
+    background-color: var(--drbx-soft-accent);
+    height: 660px;
 }
 
 .jumbotron h1 {
-  font-size: 3.5rem;
-  color: var(--ds-white);
+    font-size: 3.5rem;
+    color: var(--ds-white);
 }
 
 .main_container {
     width: 80%;
     margin: 0 auto;
 }
-#plans .container, #partner .container, #business .container, #more .container {
+
+#plans .container,
+#partner .container,
+#business .container,
+#more .container {
     max-width: 1170px;
     width: 70%;
     margin: auto;
@@ -252,7 +314,7 @@ h1 {
     font-weight: 900;
 }
 
-p{
+p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -278,7 +340,7 @@ p{
 }
 
 .call_to_action i {
-    text-align: left; 
+    text-align: left;
     color: var(--drbx-black);
 }
 
@@ -293,14 +355,26 @@ p{
 #members .square-sm {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.left, .center, .right {
-display: flex;
-flex-wrap: wrap;
+#members .square-sm .img-fluid {
+    max-width: 60%;
+    filter: invert(100%);
+}
+
+#members .square > img {
+    max-width: 50%;
+}
+
+.square-sm.designit {
+    border: 14px solid #d0e9cc;
+}
+
+.left,
+.center,
+.right {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -339,8 +413,8 @@ h2 {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -353,7 +427,7 @@ p {
 
 #plans .container .row {
     margin-top: 3rem;
-    
+
 }
 
 h3 {
@@ -380,7 +454,7 @@ h3 {
     padding: 1rem 0;
 }
 
-#site_main .business .card p{
+#site_main .business .card p {
     padding-top: 1rem;
 }
 
@@ -404,6 +478,7 @@ footer {
 .pt-6 {
     padding-top: 3rem;
 }
+
 .pt-8 {
     padding-top: 4rem;
 }
@@ -414,6 +489,10 @@ footer {
 
 .pt-30 {
     padding-top: 15rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
 }
 
 .pb-4 {
@@ -431,6 +510,11 @@ footer {
 .pl-0 {
     padding-left: 0;
 }
+
+.pl-6 {
+    padding-left: 12rem;
+}
+
 .pl-16 {
     padding-left: 8rem;
 }
@@ -443,9 +527,10 @@ footer {
     padding-right: 1rem;
 }
 
-.pl-1{
+.pl-1 {
     padding-left: 0.5rem;
 }
+
 .pl-2 {
     padding-left: 1rem;
 }
@@ -462,6 +547,7 @@ footer {
 .ml-4 {
     margin-left: 2rem;
 }
+
 .mt-6 {
     margin-top: 3rem;
 }
@@ -477,6 +563,11 @@ footer {
 .py-8 {
     padding: 4rem 0;
 }
+
+.p-6 {
+    padding: 3rem;
+}
+
 /* / Spacing Region*/
 
 .border {
